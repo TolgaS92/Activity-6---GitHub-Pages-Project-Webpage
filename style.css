@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+body {
+    position:fixed;
+    padding: 20px;
+    margin: 20px;
+}
+section img {
+    position: relative;
+    float: right;
+    height: 300px;
+    width: 500px;
+}
+p {
+    position: relative;
+    padding: 20px;
+}

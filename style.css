@@ -1,18 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+}
 h1 {
+    color: whitesmoke;
     text-align: center;
 }
 body {
+    display: block;
+    background-color: beige;
     position:fixed;
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
-section img {
-    position: relative;
-    float: right;
+
+#lion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 300px;
     width: 500px;
 }
-p {
-    position: relative;
-    padding: 20px;
+
+aside {
+    text-align: center;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: larger;
+}
+.flexbox-container {
+    display: static;
+    background-color: rgb(95, 0, 0);
+
+}
+.flexbox-container > section {
+    background-color: #1a1818;
+    border: solid rgb(133, 88, 21);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
